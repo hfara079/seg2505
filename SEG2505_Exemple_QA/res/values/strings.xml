@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SEG2505_Exemple_QA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_Login">Login</string>
+    <string name="button_PoserQuestion">Poser une question</string>
+    <string name="button_RepondreQuestion">Repondre a une question</string>
+    <string name="button_LireEvaluer">Lire et evaluer une reponse</string>
+    <string name="button_Expert">Je suis un expert</string>
+    <string name="button_ChoisirExpertises">Choisir mes expertises</string>
+    <string name="button_NonExpert">Je ne suis pas un expert</string>
+    <string name="button_Ok">Ok</string>
+    <string name="button_Cancel">Cancel</string>
+    <string name="title_activity_poser_question">Poser une question</string>
+    <string name="title_activity_lire_evaluer_reponse">Lire et evaluer une reponse</string>
+    <string name="title_activity_repondre_question">Repondre a une question</string>
+    <string name="title_activity_choisir_expertise">Choix des expertises</string>
+    
+    <string name="label_expertise_vin">Vin</string>
+    <string name="label_expertise_fenetre">Fenetre</string>
+    <string name="label_expertise_bois">Bois</string>
+    
+    <string name="label_expertise_requise">Expertise requise</string>
+    
+    <string name="label_nouvelleCategorie">Ajouter une nouvelle expertise</string>
+    
+    <string name="button_ajouterCategorie">Ajouter</string>
+    
+    <string name="label_choisir_expertise">Choix de l\'expertise</string>
+    
+    <string name="button_MisAJour">Mis a jour</string>
+    
+    <string name="label_reponse">La reponse a la question choisie</string>
+    
+    <string name="button_voir_reponse">Voir la reponse</string>
+    
+    <string name="label_evaluer_reponse">Evaluation de la reponse (1-5)</string>
+
+</resources>

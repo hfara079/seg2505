@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.seg2505.exemple.MainActivity" >
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLogin"
+        android:text="@string/button_Login" />
+    
+    <Button
+        android:id="@+id/buttonChoisirExpertises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onChoisirExpertises"
+        android:text="@string/button_ChoisirExpertises" />
+    
+    <Button
+        android:id="@+id/buttonPoserQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onPoserQuestion"
+        android:text="@string/button_PoserQuestion" />
+
+    <Button
+        android:id="@+id/buttonRepondreQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onRepondreQuestion"
+        android:text="@string/button_RepondreQuestion" />
+
+    <Button
+        android:id="@+id/buttonLireEvaluerReponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="OnLireEvaluerReponse"
+        android:text="@string/button_LireEvaluer" />
+
+</LinearLayout>
